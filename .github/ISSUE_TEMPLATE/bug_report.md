@@ -18,15 +18,16 @@ Oh no, a bug! It happens. Thanks for reporting an issue with NewPipe. To make it
 <!-- This checklist is COMPULSORY. The first box has been checked for you to show you how it is done. -->
 
 - [x] I am using the latest version - x.xx.x <!-- Check https://github.com/TeamNewPipe/NewPipe/releases -->
-- [ ] I checked, but didn't find any duplicates (open OR closed) of this issue in the repo. <!-- Seriously, check. O_O -->
-- [ ] I have read the contribution guidelines given at https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md.
-- [ ] This issue contains only one bug. I will open one issue for every bug report I want to file.
+- [x] I checked, but didn't find any duplicates (open OR closed) of this issue in the repo. <!-- Seriously, check. O_O -->
+- [x] I have read the contribution guidelines given at https://github.com/TeamNewPipe/NewPipe/blob/HEAD/.github/CONTRIBUTING.md.
+- [x] This issue contains only one bug. I will open one issue for every bug report I want to file.
 
 ### Steps to reproduce the bug
 <!--
-1. Go to '...'
-2. Press on '....'
-3. Swipe down to '....'
+1. Go to 'any videos'
+2. Press on 'download option'
+3. Press on 'ok button' there will be no response.
+4. App will automatically get closed in few seconds
 -->
 
 <!-- If you can't cause the bug to show up again reliably (and hence don't have a proper set of steps to give us), please still try to give as many details as possible on how you think you encountered the bug. -->
@@ -35,16 +36,17 @@ Oh no, a bug! It happens. Thanks for reporting an issue with NewPipe. To make it
 
 ### Actual behavior
 <!-- Tell us what happens with the steps given above. -->
-
+the video is not getting downloaded rather the application is getting closed automatically.
 
 
 ### Expected behavior
 <!-- Tell us what you expect to happen. -->
-
+Once ok button is pressed it will start downloading the video and the video will be available in the downloads section. 
 
 
 ### Screenshots/Screen recordings
 <!-- If applicable, add screenshots or a screen recording to help explain your problem. GitHub supports uploading them directly in the issue text box. If your file is too big for Github to accept, feel free to paste a link from an image/video hoster here instead. -->
+https://drive.google.com/file/d/18Y9rjWrvrOd7s4SmXRfUi2-8Xfs_uaii/view?usp=sharing
 
 <!-- DON'T POST SCREENSHOTS OF THE ERROR PAGE. Use the buttons given on the error page to paste the error as text in the Logs section below. -->
 
@@ -61,5 +63,7 @@ Oh no, a bug! It happens. Thanks for reporting an issue with NewPipe. To make it
 
 ### Device info
 
- - Android version/Custom ROM version:
- - Device model:
+ - NewPipe Version: 0.21.9
+ - Android version/Custom ROM version: 11
+ - Device model: Realme RMX2040
+ - Build number: RMX2040_11_C.08
